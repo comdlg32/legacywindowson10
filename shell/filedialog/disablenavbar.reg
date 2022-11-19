@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+;Disable navigation bar
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{056440FD-8568-48e7-A632-72157243B55B}\InprocServer32]
+@=""
