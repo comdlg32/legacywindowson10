@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Comdlg32]
+;Disable back button in legacy open/save dialogs. This also disables redirection to the new open/save dialog.
+"NoPlacesBar"=dword:00000001
+;Disable back button in legacy open/save dialogs.
+"NoBackButton"=dword:00000001
+;Disable MRU (the dropdown showing recently opened files) in legacy open/save dialogs.
+"NoFileMru"=dword:00000001
