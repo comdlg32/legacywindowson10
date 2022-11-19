@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Comdlg32]
+;Disable open/save dialog redirection to the new one. This has a side effect of disabling the Places bar in legacy open/save dialogs.
+"NoPlacesBar"=dword:00000001
