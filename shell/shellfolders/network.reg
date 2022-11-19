@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+;Disable Network Explorer, enable legacy network folder from 95/NT4 - XP
+[HKEY_CLASSES_ROOT\CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\TreatAs]
+@="{208D2C60-3AEA-1069-A2D7-08002B30309D}"
+
+;Show "Add Network Place" in Network folder
+[HKEY_CLASSES_ROOT\CLSID\{D4480A50-BA28-11d1-8E75-00C04FA31A86}\ShellFolder]
+"Attributes"=dword:00000000
+
+;Show network shortcuts in Network folder
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\NetworkNeighborhood\NameSpace\DelegateFolders\{b155bdf8-02f0-451e-9a26-ae317cfd7779}]
