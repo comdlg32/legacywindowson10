@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Toolbar]
+;Restore Address toolbar
+"{01E04581-4EEE-11d0-BFE9-00AA005B4383}"=hex:
+;Restore Links toolbar
+"{0E5CBF21-D15F-11D0-8301-00AA005B4383}"=hex:
+
